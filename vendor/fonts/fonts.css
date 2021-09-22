@@ -2,6 +2,7 @@
   src: url(./formular-light.woff) format('woff'), url(./formular-light.woff2) format('woff2');
   font-family: 'Formular';
   font-weight: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -9,4 +10,5 @@
     url(./PPNeueMachina-Regular.woff2) format('woff2');
   font-family: 'Neue Machina';
   font-weight: normal;
+  font-display: swap;
 }
