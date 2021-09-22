@@ -1,0 +1,20 @@
+.gallery__title {
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 22px;
+  max-width: 490px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .gallery__title {
+    max-width: 720px;
+    padding-right: 21%;
+    margin-top: 145px;
+    margin-bottom: 42px;
+    text-align: left;
+  }
+}
