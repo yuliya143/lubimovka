@@ -2,3 +2,19 @@
 @import url(../vendor/fonts/fonts.css);
 
 @import url(../blocks/page/page.css);
+
+@import url(../blocks/headline/headline.css);
+@import url(../blocks/headline/_level/.headline_level_1);
+@import url(../blocks/headline/_level/.headline_level_2);
+@import url(../blocks/headline/_level/.headline_level_3);
+@import url(../blocks/headline/_level/.headline_level_4);
+@import url(../blocks/headline/_level/.headline_level_5);
+@import url(../blocks/headline/_level/.headline_level_6);
+@import url(../blocks/headline/_level/.headline_level_7);
+
+@import url(../blocks/text/text.css);
+@import url(../blocks/text/_level/.text_level_1);
+@import url(../blocks/text/_level/.text_level_2);
+@import url(../blocks/text/_level/.text_level_3);
+@import url(../blocks/text/_level/.text_level_4);
+@import url(../blocks/text/_muted/text_muted.css);
