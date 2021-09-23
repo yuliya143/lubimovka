@@ -1,0 +1,46 @@
+.button {
+  /* border: 1px solid red; */
+  margin: 20px;
+}
+
+.button_backlink {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Formular;
+  font-size: 16px;
+  color: #242424;
+  font-weight: 300;
+  line-height: .88;
+  width: 115px;
+  height: 32px;
+  padding: 9px 0 9px 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #242424;
+  border-right: 1px solid #242424;
+  background-image: url(../../images/arrow-left.svg);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: 25px 25px;
+}
+
+.button_backlink:hover {
+  background-color: #242424;
+  color: #ECEBE8;
+}
+
+.button_anons {
+
+}
+
+.button_reading {
+
+}
+
+.button_download {
+
+}
+
+.button_external {
+
+}
