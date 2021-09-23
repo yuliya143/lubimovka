@@ -11,8 +11,9 @@
 
 @media (min-width: 768px) {
   .gallery__title {
-    max-width: 720px;
+    padding-left: 0;
     padding-right: 21%;
+    max-width: 720px;
     margin-top: 145px;
     margin-bottom: 42px;
     text-align: left;
