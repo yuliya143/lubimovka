@@ -2,3 +2,8 @@
 @import url(../vendor/fonts/fonts.css);
 
 @import url(../blocks/page/page.css);
+
+@import url(../blocks/external-link/external-link.css);
+@import url(../blocks/external-link/__headline/external-link__headline.css);
+@import url(../blocks/external-link/__description/external-link__description.css);
+@import url(../blocks/external-link/__button/external-link__button.css);
