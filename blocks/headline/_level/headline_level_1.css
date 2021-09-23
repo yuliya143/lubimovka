@@ -1,0 +1,11 @@
+.headline_level_1 {
+  font-size: 40px;
+  line-height: 1;
+}
+
+@media (min-width: 768px) {
+  .headline_level_1 {
+    font-size: 72px;
+    line-height: 0.97;
+  }
+}
