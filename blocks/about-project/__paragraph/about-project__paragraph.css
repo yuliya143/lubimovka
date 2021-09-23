@@ -1,3 +1,11 @@
 .about-project__paragraph {
-  margin-left: 61px;
+  margin-left: 85px;
+  margin-right: 24px;
+}
+
+@media (min-width: 1024px) {
+  .about-project__paragraph {
+    margin-left: 420px;
+    max-width: 509px;
+  }
 }

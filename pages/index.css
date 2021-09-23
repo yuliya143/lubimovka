@@ -4,4 +4,5 @@
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/about-project/about-project.css);
+@import url(../blocks/about-project/__headline/about-project__headline.css);
 @import url(../blocks/about-project/__paragraph/about-project__paragraph.css);
