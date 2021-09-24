@@ -1,0 +1,27 @@
+.video__ifraime {
+  min-width: 299px;
+  height: 100%;
+  margin-right: 30px;
+}
+@media screen and (min-width: 1023px) {
+  .video__ifraime {
+    min-width: 420px;
+    margin-right: 59px;
+    min-height: 236px;
+  }
+}
+.three-video__ifraime {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 1440px) {
+  .three-video__ifraime {
+    justify-content: flex-start;
+  }
+}
+.video__ifraime:last-child {
+  margin-right: 0;
+}

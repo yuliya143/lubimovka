@@ -2,3 +2,9 @@
 @import url(../vendor/fonts/fonts.css);
 
 @import url(../blocks/page/page.css);
+
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__title/video__title.css);
+@import url(../blocks/three-video/three-video.css);
+@import url(../blocks/three-video/__ifraime/three-video__ifraime.css);
+@import url(../blocks/three-video/__title/);

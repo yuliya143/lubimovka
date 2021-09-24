@@ -1,0 +1,19 @@
+.video__title {
+  text-align: center;
+  color: #242424;
+  font-weight: normal;
+  font-family: Neue Machina;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 32px;
+  margin-top: 0;
+  margin-bottom: 32px;
+  max-width: 568px;
+}
+@media screen and (min-width: 1440px) {
+  .video__title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
