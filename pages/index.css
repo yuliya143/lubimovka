@@ -20,7 +20,8 @@
 @import url(../blocks/text/_muted/text_muted.css);
 
 @import url(../blocks/about-project/about-project.css);
-@import url(../blocks/about-project/__headline/about-project__headline.css);
+@import url(../blocks/about-project/__container/about-project__container.css);
+@import url(../blocks/about-project/__title/about-project__title.css);
 @import url(../blocks/about-project/__paragraph/about-project__paragraph.css);
 
 @import url(../blocks/gallery/gallery.css);

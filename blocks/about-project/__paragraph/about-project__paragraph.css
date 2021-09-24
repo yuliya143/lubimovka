@@ -1,11 +1,17 @@
 .about-project__paragraph {
-  margin-left: 85px;
-  margin-right: 24px;
+  max-width: 490px;
+  box-sizing: border-box;
+  padding-left: 85px;
+  padding-right: 24px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .about-project__paragraph {
-    margin-left: 420px;
     max-width: 509px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 60px;
   }
 }

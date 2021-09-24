@@ -1,9 +1,0 @@
-.about-project__headline {
-  margin-left: 24px;
-}
-
-@media (min-width: 1024px) {
-  .about-project__headline {
-    margin-left: 360px;
-  }
-}
