@@ -1,42 +1,21 @@
-.button {
-  /* border: 1px solid red; */
-  margin: 20px;
+div {
+  margin: 50px;
 }
 
-.button_backlink {
+.button {
   position: relative;
   display: inline-block;
-  width: 115px;
-  height: 32px;
   box-sizing: border-box;
-  padding: 9px 0 9px 10px;
-  border-bottom: 1px solid #242424;
-  border-right: 1px solid #242424;
   text-transform: uppercase;
   text-decoration: none;
   font-family: Formular;
   font-size: 16px;
-  line-height: .88;
   font-weight: 300;
   color: #242424;
   transition: color .5s;
 }
 
-.button_backlink::after {
-  content: '';
-  position: absolute;
-  background-image: url(../../images/arrow-left.svg);
-  background-repeat: no-repeat;
-  background-position: center right;
-  background-size: 25px 25px;
-  top: 0px;
-  right: 0px;
-  height: 100%;
-  width: 25px;
-  z-index: -1;
-}
-
-.button_backlink:before {
+.button:before {
   content: '';
   position: absolute;
   background-image: linear-gradient(#242424, #242424);
@@ -48,41 +27,32 @@
   height: 100%;
   width: 100%;
   z-index: -1;
-  transition: all .5s;
-
+  transition: background-size .5s;
 }
-.button_backlink:hover {
+
+.button::after {
+  content: '';
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25px 25px;
+  top: 0;
+  right: 16px;
+  height: 100%;
+  width: 25px;
+  z-index: -1;
+}
+
+.button:hover {
   color: #ECEBE8;
 }
 
-.button_backlink:hover:before {
+.button:hover:before {
   background-size: 100% 100%;
 }
 
-.button_backlink:hover:after {
+.button:hover:after {
   transition: all .3s;
-  transition-delay: .2s;
+  transition-delay: .3s;
   filter: invert(100%);
-}
-
-@media (min-width:768px) {
-  .button_backlink {
-    width: 120px;
-  }
-}
-
-.button_anons {
-
-}
-
-.button_reading {
-
-}
-
-.button_download {
-
-}
-
-.button_external {
-
 }

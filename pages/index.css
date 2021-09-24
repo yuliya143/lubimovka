@@ -3,4 +3,12 @@
 
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/text/_type/text_type_link.css);
+
 @import url(../blocks/button/button.css);
+@import url(../blocks/button/_type/button_type_backlink.css);
+@import url(../blocks/button/_type/button_type_anons.css);
+@import url(../blocks/button/_type/button_type_reading.css);
+@import url(../blocks/button/_type/button_type_download.css);
+@import url(../blocks/button/_type/button_type_external.css);
+@import url(../blocks/button/_condition/button_condition_click.css);

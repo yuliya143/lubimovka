@@ -1,0 +1,7 @@
+.button_condition_click {
+
+}
+
+.button_condition_click:hover:before {
+  transform: scale(1.15, 1.2);
+}
