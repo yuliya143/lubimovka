@@ -1,5 +1,12 @@
 .external-link {
   box-sizing: border-box;
-  padding: 56px 24px 72px 25px;
+  padding: 56px 0 72px;
   background-color: #B7C09D;
+}
+
+@media (min-width: 768px) {
+  .external-link {
+    padding-top: 71px;
+    padding-bottom: 141px;
+  }
 }
