@@ -1,0 +1,9 @@
+.performances__title {
+  align-self: center;
+}
+
+@media (min-width: 1096px) {
+  .performances__title {
+    align-self: flex-start;
+  }
+}

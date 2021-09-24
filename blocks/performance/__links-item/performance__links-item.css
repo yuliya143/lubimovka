@@ -1,0 +1,18 @@
+.performance__links-item {
+  margin-right: 26px;
+}
+
+.performance__links-item:last-of-type {
+  margin-right: 0;
+}
+
+@media (min-width: 1096px) {
+  .performance__links-item {
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+
+  .performance__links-item:last-of-type {
+    margin-bottom: 0;
+  }
+}

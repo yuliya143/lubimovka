@@ -1,0 +1,9 @@
+.performances__container_type_row {
+  flex-direction: column;
+}
+
+@media (min-width: 1096px) {
+  .performances__container_type_row {
+    flex-direction: row;
+  }
+}
