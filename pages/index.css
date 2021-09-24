@@ -5,6 +5,5 @@
 
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__title/video__title.css);
-@import url(../blocks/three-video/three-video.css);
-@import url(../blocks/three-video/__ifraime/three-video__ifraime.css);
-@import url(../blocks/three-video/__title/);
+@import url(../blocks/video/__block/video__block.css);
+@import url(../blocks/video/__ifraime/video__ifraime.css);

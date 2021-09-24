@@ -1,0 +1,12 @@
+.video__block {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 1440px) {
+  .video__block {
+    justify-content: flex-start;
+  }
+}
