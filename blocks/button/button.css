@@ -4,29 +4,71 @@
 }
 
 .button_backlink {
+  position: relative;
   display: inline-block;
+  width: 115px;
+  height: 32px;
+  box-sizing: border-box;
+  padding: 9px 0 9px 10px;
+  border-bottom: 1px solid #242424;
+  border-right: 1px solid #242424;
   text-transform: uppercase;
   text-decoration: none;
   font-family: Formular;
   font-size: 16px;
-  color: #242424;
-  font-weight: 300;
   line-height: .88;
-  width: 115px;
-  height: 32px;
-  padding: 9px 0 9px 10px;
-  box-sizing: border-box;
-  border-bottom: 1px solid #242424;
-  border-right: 1px solid #242424;
+  font-weight: 300;
+  color: #242424;
+  transition: color .5s;
+}
+
+.button_backlink::after {
+  content: '';
+  position: absolute;
   background-image: url(../../images/arrow-left.svg);
   background-repeat: no-repeat;
   background-position: center right;
   background-size: 25px 25px;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  width: 25px;
+  z-index: -1;
 }
 
+.button_backlink:before {
+  content: '';
+  position: absolute;
+  background-image: linear-gradient(#242424, #242424);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  transition: all .5s;
+
+}
 .button_backlink:hover {
-  background-color: #242424;
   color: #ECEBE8;
+}
+
+.button_backlink:hover:before {
+  background-size: 100% 100%;
+}
+
+.button_backlink:hover:after {
+  transition: all .3s;
+  transition-delay: .2s;
+  filter: invert(100%);
+}
+
+@media (min-width:768px) {
+  .button_backlink {
+    width: 120px;
+  }
 }
 
 .button_anons {
