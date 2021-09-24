@@ -1,0 +1,11 @@
+.headline_level_4 {
+  font-size: 28px;
+  line-height: 1.14;
+}
+
+@media (min-width: 768px) {
+  .headline_level_4 {
+    font-size: 40px;
+    line-height: 1;
+  }
+}
