@@ -21,7 +21,7 @@
   }
   .performances__list-item::after {
     top: 0;
-    right: 30px;
+    right: 0;
     width: 1px;
     height: 100%;
     max-height: 268px;
@@ -34,8 +34,12 @@
 
 @media (min-width: 1384px) {
   .performances__list-item {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .performances__list-item:first-of-type {
     padding-left: 0;
-    padding-right: 60px;
   }
   .performances__list-item:last-of-type {
     padding-right: 0;

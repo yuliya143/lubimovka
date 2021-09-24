@@ -13,6 +13,6 @@
 @media (min-width: 1384px) {
   .performance {
     column-gap: 32px;
-    grid-template-columns: 120px 272px;
+    grid-template-columns: 120px minmax(248px, 272px);
   }
 }
