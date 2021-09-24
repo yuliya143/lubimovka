@@ -1,0 +1,13 @@
+.about-project {
+  box-sizing: border-box;
+  padding-top: 56px;
+  padding-bottom: 72px;
+  background-color: #b7c09d;
+}
+
+@media (min-width: 768px) {
+  .about-project {
+    padding-top: 79px;
+    padding-bottom: 120px;
+  }
+}
