@@ -1,0 +1,11 @@
+.popup__close-icon {
+  width: 28px;
+  height: 28px;
+}
+
+@media (min-width: 768px) {
+  .popup__close-icon {
+    width: 41px;
+    height: 41px;
+  }
+}

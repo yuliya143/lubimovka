@@ -1,0 +1,12 @@
+.popup__left-icon {
+  width: 40px;
+  height: 40px;
+}
+
+@media (min-width: 1024px) {
+  .popup__left-icon {
+    width: 66px;
+    height: 66px;
+    padding-right: 32px;
+  }
+}
