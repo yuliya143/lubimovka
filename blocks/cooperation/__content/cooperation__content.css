@@ -1,0 +1,17 @@
+.cooperation__content {
+  max-width: 468px;
+}
+
+@media (min-width: 768px) {
+  .cooperation__content {
+    grid-column: 2/ 4;
+    grid-row: 2 / 3;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cooperation__content {
+    margin-left: 58px;
+    grid-column: 2/ 3;
+  }
+}

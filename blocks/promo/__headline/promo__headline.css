@@ -1,11 +1,19 @@
 .promo__headline {
-  font-size: 20px;
-  line-height: 1.2;
+  padding: 0 24px 22px;
+  box-sizing: border-box;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 504px) {
   .promo__headline {
-    font-size: 28px;
-    line-height: 1.14;
+    max-width: 496px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .promo__headline {
+    grid-area: title;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 65px;
   }
 }

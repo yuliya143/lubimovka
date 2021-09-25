@@ -1,0 +1,19 @@
+.play__heading {
+  height: 340px;
+  background-color: #b7c09d;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .play__heading:hover .play__button-group {
+    opacity: 1;
+    transition: opacity 0.2s ease;
+  }
+}
+
+@media (min-width: 768px) {
+  .play__heading {
+    height: 300px;
+  }
+}

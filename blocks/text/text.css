@@ -6,8 +6,3 @@
   color: #242424;
   margin: 0;
 }
-
-.text + .text {
-  margin-top: 16px;
-  text-indent: 60px;
-}
