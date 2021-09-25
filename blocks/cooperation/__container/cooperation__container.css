@@ -1,0 +1,25 @@
+.cooperation__container {
+  max-width: 550px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-left: 55px;
+  padding-right: 24px;
+}
+
+@media (min-width: 768px) {
+  .cooperation__container {
+    max-width: 1440px;
+    padding-left: 0;
+    padding-right: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+  }
+}
+
+@media (min-width: 1024px) {
+  .cooperation__container {
+    padding-right: 56px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

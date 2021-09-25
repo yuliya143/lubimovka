@@ -1,0 +1,36 @@
+.cooperation__headline {
+  position: relative;
+  font-size: 28px;
+  line-height: 1.14;
+  font-weight: 400;
+  margin-bottom: 33px;
+  max-width: 450px;
+}
+
+.cooperation__headline::before {
+  content: '';
+  position: absolute;
+  top: -26px;
+  left: -30px;
+  width: 25px;
+  height: 25px;
+  background-image: url(../../../images/asterisk.svg);
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  background-position: center center;
+}
+
+@media (min-width: 768px) {
+  .cooperation__headline {
+    font-size: 36px;
+    line-height: 1.06;
+    grid-column: 2/ 4;
+    grid-row: 1 / 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cooperation__headline {
+    grid-column: 2/ 3;
+  }
+}
