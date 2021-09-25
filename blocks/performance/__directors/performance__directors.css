@@ -1,0 +1,13 @@
+.performance__directors {
+  padding: 0;
+  margin: 0 0 8px 0;
+  list-style: none;
+}
+
+@media (min-width: 1384px) {
+  .performance__directors {
+    padding-left: 30px;
+    margin-bottom: 20px;
+    opacity: 1;
+  }
+}
