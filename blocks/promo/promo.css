@@ -6,7 +6,7 @@
 
 .promo__title {
   max-width: 450px;
-  margin-top: 60px;
+  /* margin-top: 60px; */
   margin-left: 24px;
   overflow-wrap: break-word;
   font-family: "Neue Machina";
@@ -37,20 +37,22 @@
 
 @media screen and (min-width: 769px) {
   .promo {
-    gap: 65px 120px;
+    /* gap: 65px 120px; */
     grid-template-areas: ". title" "text image";
     grid-template-columns: 1fr 1fr;
   }
   .promo__title {
     grid-area: title;
+    margin-left: 0;
+    margin-bottom: 65px;
     font-size: 72px;
     line-height: 70px;
-    margin-left: 0;
   }
   .promo__text {
     grid-area: text;
-    margin-top: 36px;
+    margin-top: 0;
     margin-bottom: auto;
+    margin-right: 120px;
     font-size: 28px;
     line-height: 32px;
   }
