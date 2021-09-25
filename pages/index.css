@@ -49,3 +49,10 @@
 @import url(../blocks/popup/__image/popup__image.css);
 @import url(../blocks/popup/__right-button/popup__right-button.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
+
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/resources/__container/resources__container.css);
+@import url(../blocks/resources/__headline/resources__headline.css);
+@import url(../blocks/resources/__content/resources__content.css);
+@import url(../blocks/resources/__description/resources__description.css);
+@import url(../blocks/resources/__button/resources__button.css);
