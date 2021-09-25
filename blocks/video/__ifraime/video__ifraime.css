@@ -1,0 +1,12 @@
+.video__ifraime {
+  width: 299px;
+  height: 168px;
+  border: 0;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .video__ifraime {
+    min-width: 420px;
+    min-height: 236px;
+  }
+}

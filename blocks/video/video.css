@@ -1,0 +1,16 @@
+.video {
+  margin-top: 57px;
+  margin-bottom: 100px;
+}
+
+.video .scroll-row__list {
+  width: 100%;
+  column-gap: 60px;
+}
+
+@media (min-width: 768px) {
+  .video {
+    margin-top: 100px;
+    margin-bottom: 145px;
+  }
+}

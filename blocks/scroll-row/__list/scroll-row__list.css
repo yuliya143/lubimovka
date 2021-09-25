@@ -6,6 +6,7 @@
   display: inline-grid;
   column-gap: 30px;
   grid-auto-flow: column;
+  box-sizing: border-box;
 }
 
 @media (min-width: 768px) {

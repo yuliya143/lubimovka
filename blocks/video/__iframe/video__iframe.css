@@ -1,0 +1,12 @@
+.video__iframe {
+  width: 299px;
+  height: 168px;
+  border: 0;
+}
+
+@media (min-width: 768px) {
+  .video__iframe {
+    width: 420px;
+    height: 236px;
+  }
+}
