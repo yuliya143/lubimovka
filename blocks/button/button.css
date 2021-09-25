@@ -7,6 +7,7 @@
   font-family: Formular;
   font-size: 16px;
   font-weight: 300;
+  line-height: 1.38;
   color: #242424;
   transition: color .5s;
 }
@@ -51,4 +52,8 @@
   transition: all .3s;
   transition-delay: .3s;
   filter: invert(100%);
+}
+
+.button:hover:active {
+  transform: scale(1.15, 1.2);
 }
