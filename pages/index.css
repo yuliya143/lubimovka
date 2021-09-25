@@ -56,3 +56,10 @@
 @import url(../blocks/resources/__content/resources__content.css);
 @import url(../blocks/resources/__description/resources__description.css);
 @import url(../blocks/resources/__button/resources__button.css);
+
+@import url(../blocks/cooperation/cooperation.css);
+@import url(../blocks/cooperation/__container/cooperation__container.css);
+@import url(../blocks/cooperation/__headline/cooperation__headline.css);
+@import url(../blocks/cooperation/__content/cooperation__content.css);
+@import url(../blocks/cooperation/__text/cooperation__text.css);
+@import url(../blocks/cooperation/__link/cooperation__link.css);
