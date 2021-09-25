@@ -15,7 +15,7 @@
   z-index: 1;
 }
 
-.button:before {
+.button::before {
   content: '';
   position: absolute;
   background-image: linear-gradient(#242424, #242424);
@@ -47,16 +47,16 @@
   color: #ecebe8;
 }
 
-.button:hover:before {
+.button:hover::before {
   background-size: 100% 100%;
 }
 
-.button:hover:after {
+.button:hover::after {
   transition: all 0.3s;
   transition-delay: 0.3s;
   filter: invert(100%);
 }
 
-.button:hover:active:before {
+.button:hover::active::before {
   transform: scale(1.15, 1.2);
 }
