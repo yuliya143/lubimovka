@@ -10,6 +10,7 @@
   line-height: 1.38;
   color: #242424;
   transition: color .5s;
+  z-index: 1;
 }
 
 .button:before {
@@ -54,6 +55,6 @@
   filter: invert(100%);
 }
 
-.button:hover:active {
+.button:hover:active:before {
   transform: scale(1.15, 1.2);
 }

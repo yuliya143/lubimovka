@@ -9,7 +9,6 @@
 @import url(../blocks/button/_type/button_type_reading.css);
 @import url(../blocks/button/_type/button_type_download.css);
 @import url(../blocks/button/_type/button_type_external.css);
-@import url(../blocks/button/_condition/button_condition_click.css);
 
 @import url(../blocks/headline/headline.css);
 @import url(../blocks/headline/_level/headline_level_1.css);
