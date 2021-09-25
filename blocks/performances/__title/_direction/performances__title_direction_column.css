@@ -1,11 +1,5 @@
-.performances__title_direction_column {
-  max-width: 369px;
-}
-
 @media (min-width: 1096px) {
   .performances__title_direction_column {
-    padding-left: 25%;
     padding-bottom: 75px;
-    max-width: 568px;
   }
 }

@@ -1,9 +1,16 @@
 .performances__title {
-  align-self: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: 0 auto;
+  max-width: 490px;
+  box-sizing: border-box;
 }
 
-@media (min-width: 1096px) {
+@media (min-width: 768px) {
   .performances__title {
-    align-self: flex-start;
+    padding-left: 0;
+    padding-right: 21%;
+    max-width: 720px;
+    text-align: left;
   }
 }
