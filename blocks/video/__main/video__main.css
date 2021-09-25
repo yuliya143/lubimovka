@@ -1,0 +1,12 @@
+.video__main {
+  margin: 0 auto;
+  max-width: 366px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .video__main {
+    max-width: 716px;
+    padding: 0 362px 0 362px;
+  }
+}

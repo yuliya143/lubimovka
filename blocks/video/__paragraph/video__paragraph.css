@@ -1,0 +1,13 @@
+.video__paragraph {
+  width: 366px;
+  margin: 32px auto 41px;
+}
+@media screen and (min-width: 768px) {
+  .video__paragraph {
+    min-width: 716px;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 0;
+    margin-bottom: 64px;
+  }
+}

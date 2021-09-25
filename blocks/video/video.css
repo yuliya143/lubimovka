@@ -4,5 +4,9 @@
   line-height: 32px;
   margin: 0 auto;
   padding: 0;
-  max-width: 1440px;
+}
+@media screen and (min-width: 768px) {
+  .video {
+    max-width: 1440px;
+  }
 }
