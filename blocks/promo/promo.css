@@ -1,11 +1,13 @@
 .promo {
   display: grid;
   grid-template-columns: 1fr;
+  /* gap: 36px; */
 }
 
 .promo__title {
   max-width: 450px;
   margin-top: 60px;
+  margin-left: 24px;
   overflow-wrap: break-word;
   font-family: "Neue Machina";
   font-size: 40px;
@@ -15,9 +17,12 @@
 }
 
 .promo__text {
+  width: 73%;
   max-width: 420px;
   margin-left: auto;
-  margin-bottom: auto;
+  margin-top: 22px;
+  margin-right: 24px;
+  margin-bottom: 36px;
   font-family: "Neue Machina";
   font-size: 20px;
   font-weight: 400;
@@ -40,9 +45,12 @@
     grid-area: title;
     font-size: 72px;
     line-height: 70px;
+    margin-left: 0;
   }
   .promo__text {
     grid-area: text;
+    margin-top: 36px;
+    margin-bottom: auto;
     font-size: 28px;
     line-height: 32px;
   }
