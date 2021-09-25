@@ -1,0 +1,17 @@
+.popup__left-button {
+  all: unset;
+  line-height: 0;
+  cursor: pointer;
+  grid-column: 1/2;
+  grid-row: 1/-1;
+  position: relative;
+  z-index: 2;
+  left: -50%;
+}
+
+@media (min-width: 768px) {
+  .popup__left-button {
+    left: 0;
+    padding-right: 32px;
+  }
+}

@@ -1,0 +1,21 @@
+.popup__close-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.popup__close-icon:hover .popup__circle {
+  fill: #242424;
+  transition: fill 0.2s ease;
+}
+
+.popup__close-icon:hover .popup__cross {
+  fill: #ecebe8;
+  transition: fill 0.2s ease;
+}
+
+@media (min-width: 768px) {
+  .popup__close-icon {
+    width: 41px;
+    height: 41px;
+  }
+}
