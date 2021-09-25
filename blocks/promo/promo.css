@@ -1,0 +1,17 @@
+.promo {
+  min-width: 320px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 960px) {
+  .promo {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      '. title'
+      'text image';
+  }
+}

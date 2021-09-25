@@ -1,0 +1,11 @@
+.promo__headline {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+  .promo__headline {
+    font-size: 28px;
+    line-height: 1.14;
+  }
+}

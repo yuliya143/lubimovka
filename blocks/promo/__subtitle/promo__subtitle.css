@@ -1,0 +1,20 @@
+.promo__subtitle {
+  max-width: 364px;
+  margin: 0 auto;
+  padding: 0 0 36px 60px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+@media screen and (min-width: 504px) {
+  .promo__subtitle {
+    max-width: 480px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .promo__subtitle {
+    grid-area: text;
+    padding-bottom: 0;
+  }
+}
