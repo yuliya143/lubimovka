@@ -1,4 +1,4 @@
-.external-link__headline {
+.resources__headline {
   padding-left: 24px;
   padding-right: 23%;
   margin-left: auto;
@@ -9,7 +9,7 @@
 }
 
 @media (min-width: 768px) {
-  .external-link__headline {
+  .resources__headline {
     padding-left: 0;
     max-width: 720px;
     text-align: left;

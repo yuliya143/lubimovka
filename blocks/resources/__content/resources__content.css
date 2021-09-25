@@ -1,4 +1,4 @@
-.external-link__flex-container {
+.resources__content {
   padding-left: 87px;
   padding-right: 24px;
   max-width: 303px;
@@ -9,7 +9,7 @@
 }
 
 @media (min-width: 768px) {
-  .external-link__flex-container {
+  .resources__content {
     padding-right: 0;
     padding-left: 0;
     max-width: 720px;
@@ -20,7 +20,7 @@
 }
 
 @media (min-width: 1440px) {
-  .external-link__flex-container {
+  .resources__content {
     margin-left: 361px;
     max-width: 810px;
   }

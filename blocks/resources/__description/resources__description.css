@@ -1,9 +1,9 @@
-.external-link__description {
+.resources__description {
   margin-bottom: 16px;
 }
 
 @media (min-width: 768px) {
-  .external-link__description {
+  .resources__description {
     padding-left: 0;
     max-width: 410px;
   }
