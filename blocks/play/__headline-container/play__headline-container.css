@@ -2,3 +2,9 @@
   flex: 1;
   padding: 16px;
 }
+
+@media (min-width: 768px) {
+  .play__headline-container {
+    padding: 24px;
+  }
+}

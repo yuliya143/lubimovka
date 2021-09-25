@@ -1,0 +1,12 @@
+.popup__image-container {
+  position: relative;
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .popup__image-container {
+    grid-column: auto;
+  }
+}

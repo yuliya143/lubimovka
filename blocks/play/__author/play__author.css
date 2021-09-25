@@ -1,3 +1,10 @@
 .play__author {
+  word-wrap: break-word;
   margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+  .play__author {
+    margin-bottom: 4px;
+  }
 }
