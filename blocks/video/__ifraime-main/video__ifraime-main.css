@@ -4,7 +4,7 @@
   height: 206px;
   border: 0;
 }
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 768px) {
   .video__ifraime-main {
     min-width: 718px;
     min-height: 403px;

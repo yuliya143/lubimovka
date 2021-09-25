@@ -9,7 +9,7 @@
   justify-content: left;
   flex-direction: row;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 900px) {
   .video__iframes {
     margin-bottom: 84px;
     justify-content: center;
