@@ -1,5 +1,6 @@
 .performance__date {
-  margin: 0 42px 16px 0;
+  margin-bottom: 16px;
+  max-width: 204px;
   display: flex;
   justify-content: space-between;
   font-feature-settings: 'ss01' on;
@@ -8,6 +9,6 @@
 @media (min-width: 1384px) {
   .performance__date {
     margin-bottom: 4px;
-    margin-right: 72px;
+    max-width: 200px;
   }
 }
