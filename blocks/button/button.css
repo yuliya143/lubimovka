@@ -4,12 +4,14 @@
   box-sizing: border-box;
   text-transform: uppercase;
   text-decoration: none;
-  font-family: Formular;
+  font-family: Formular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.38;
   color: #242424;
-  transition: color .5s;
+  transition: color 0.5s;
+  box-shadow: none;
   z-index: 1;
 }
 
@@ -25,7 +27,7 @@
   height: 100%;
   width: 100%;
   z-index: -1;
-  transition: background-size .5s;
+  transition: background-size 0.5s;
 }
 
 .button::after {
@@ -42,7 +44,7 @@
 }
 
 .button:hover {
-  color: #ECEBE8;
+  color: #ecebe8;
 }
 
 .button:hover:before {
@@ -50,8 +52,8 @@
 }
 
 .button:hover:after {
-  transition: all .3s;
-  transition-delay: .3s;
+  transition: all 0.3s;
+  transition-delay: 0.3s;
   filter: invert(100%);
 }
 
