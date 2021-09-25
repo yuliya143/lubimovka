@@ -1,0 +1,17 @@
+.button_type_anons {
+  min-width: 154px;
+  padding: 8px 12px 10px 28px;
+  border-bottom: 1px solid #242424;
+  border-left: 1px solid #242424;
+  line-height: .88;
+}
+
+.button_type_anons::after {
+  background-image: url(../../../images/arrow-right.svg);
+  left: 0;
+  transition-delay: .3s;
+}
+
+.button_type_anons:hover:after {
+  transition-delay: 0s;
+}
