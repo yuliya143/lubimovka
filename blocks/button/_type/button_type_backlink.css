@@ -1,0 +1,18 @@
+.button_type_backlink {
+  min-width: 115px;
+  padding: 9px 0 9px 10px;
+  border-bottom: 1px solid #242424;
+  border-right: 1px solid #242424;
+  line-height: .88;
+}
+
+.button_type_backlink::after {
+  background-image: url(../../../images/arrow-left.svg);
+  right: 0;
+}
+
+@media (min-width:768px) {
+  .button_type_backlink {
+    min-width: 120px;
+  }
+}
