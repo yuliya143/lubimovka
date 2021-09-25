@@ -1,7 +1,5 @@
 .button_type_external {
   width: 100%;
-  max-width: 298px;
-  min-width: 150px;
   padding: 16px 0 18px 20px;
   border: 1px solid #000000;
 }
