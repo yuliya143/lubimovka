@@ -1,0 +1,12 @@
+.cooperation {
+  box-sizing: border-box;
+  padding-top: 76px;
+  padding-bottom: 100px;
+}
+
+@media (min-width: 768px) {
+  .cooperationn {
+    padding-top: 100px;
+    padding-bottom: 169px;
+  }
+}

@@ -1,0 +1,7 @@
+.cooperation__link {
+text-decoration: underline;
+}
+
+.cooperation__link:visited {
+  color: #242424;
+}
