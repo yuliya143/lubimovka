@@ -1,3 +1,9 @@
 .plays {
   margin: 100px 0 76px;
 }
+
+@media (min-width: 768px) {
+  .plays {
+    margin-bottom: 108px;
+  }
+}

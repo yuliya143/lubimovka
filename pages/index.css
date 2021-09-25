@@ -55,3 +55,15 @@
 @import url(../blocks/play/__headline-container/play__headline-container.css);
 @import url(../blocks/play/__headline/play__headline.css);
 @import url(../blocks/play/__info/play__info.css);
+
+@import url(../blocks/team/team.css);
+@import url(../blocks/team/__container/team__container.css);
+@import url(../blocks/team/__headline/team__headline.css);
+@import url(../blocks/team/__item/team__item.css);
+
+@import url(../blocks/person/person.css);
+@import url(../blocks/person/__info/person__info.css);
+@import url(../blocks/person/__name/person__name.css);
+@import url(../blocks/person/__photo-container/person__photo-container.css);
+@import url(../blocks/person/__photo/person__photo.css);
+@import url(../blocks/person/__profession/person__profession.css);
