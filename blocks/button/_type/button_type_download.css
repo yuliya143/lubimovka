@@ -1,0 +1,10 @@
+.button_type_download {
+  display: block;
+  width: 100%;
+  padding: 16px 0 18px 16px;
+  border-top: 1px solid #242424;
+}
+
+.button_type_download::after {
+  background-image: url(../../../images/arrow-down.svg);
+}

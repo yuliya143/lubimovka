@@ -1,0 +1,60 @@
+.button {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Formular;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.38;
+  color: #242424;
+  transition: color .5s;
+  z-index: 1;
+}
+
+.button:before {
+  content: '';
+  position: absolute;
+  background-image: linear-gradient(#242424, #242424);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  transition: background-size .5s;
+}
+
+.button::after {
+  content: '';
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25px 25px;
+  top: 0;
+  right: 16px;
+  height: 100%;
+  width: 25px;
+  z-index: -1;
+}
+
+.button:hover {
+  color: #ECEBE8;
+}
+
+.button:hover:before {
+  background-size: 100% 100%;
+}
+
+.button:hover:after {
+  transition: all .3s;
+  transition-delay: .3s;
+  filter: invert(100%);
+}
+
+.button:hover:active:before {
+  transform: scale(1.15, 1.2);
+}
