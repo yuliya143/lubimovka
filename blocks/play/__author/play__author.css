@@ -15,7 +15,7 @@
 }
 
 .play__author:hover {
-  background-color: #242424;
+  background-image: linear-gradient(to bottom, #242424 90%, transparent 70%);
   color: #ecebe8;
 }
 
