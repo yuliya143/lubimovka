@@ -51,7 +51,7 @@
 @import url(../blocks/gallery/__list/gallery__list.css);
 @import url(../blocks/gallery/__item/gallery__item.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
-@import url(../blocks/gallery/__image/gallery__image.css);
+
 @import url(../blocks/performances/performances.css);
 @import url(../blocks/performances/__container/performances__container.css);
 @import url(../blocks/performances/__container/_type/performances__container_type_row.css);
@@ -59,7 +59,7 @@
 @import url(../blocks/performances/__title/performances__title.css);
 @import url(../blocks/performances/__title/_direction/performances__title_direction_row.css);
 @import url(../blocks/performances/__title/_direction/performances__title_direction_column.css);
-@import url(../blocks/performances/_list/performances__list.css);
+@import url(../blocks/performances/__list/performances__list.css);
 @import url(../blocks/performances/__list-item/performances__list-item.css);
 @import url(../blocks/performance/performance.css);
 @import url(../blocks/performance/__image/performance__image.css);
@@ -77,6 +77,7 @@
 @import url(../blocks/plays/__item/plays__item.css);
 @import url(../blocks/play/play.css);
 @import url(../blocks/play/__author/play__author.css);
+@import url(../blocks/play/__place/play__place.css);
 @import url(../blocks/play/__button/play__button.css);
 @import url(../blocks/play/__button-group/play__button-group.css);
 @import url(../blocks/play/__heading/play__heading.css);
