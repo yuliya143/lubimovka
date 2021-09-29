@@ -19,8 +19,11 @@ function handlePhotoClicked(event) {
 
   if (photoClicked) {
     const src = photoClicked.getAttribute('href');
+    const altText = event.target.getAttribute('alt');
 
     popupPhoto.setAttribute('src', src);
+    popupPhoto.setAttribute('alt', altText);
+
     openPopup(popup);
   }
 }
@@ -29,7 +32,9 @@ function showPreviousPhoto() {
   const index = photoList.findIndex((link) => link.href === popupPhoto.src);
   const previousIndex = index - 1 <= 0 ? 0 : index - 1;
   const src = photoList[previousIndex].href;
+  const altText = photoList[previousIndex].firstElementChild.alt;
 
+  popupPhoto.setAttribute('alt', altText);
   popupPhoto.setAttribute('src', src);
 }
 
@@ -38,7 +43,9 @@ function showNextPhoto() {
   const lastIndex = photoList.length - 1;
   const nextIndex = index + 1 >= lastIndex ? lastIndex : index + 1;
   const src = photoList[nextIndex].href;
+  const altText = photoList[nextIndex].firstElementChild.alt;
 
+  popupPhoto.setAttribute('alt', altText);
   popupPhoto.setAttribute('src', src);
 }
 
