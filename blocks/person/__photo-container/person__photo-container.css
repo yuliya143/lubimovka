@@ -2,4 +2,9 @@
   width: 210px;
   height: 265px;
   line-height: 0;
+  overflow: hidden;
+}
+
+.person__photo-container:hover .person__photo {
+  transform: scale(1.2, 1.2);
 }
