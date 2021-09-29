@@ -86,6 +86,7 @@
 
 @import url(../blocks/play/play.css);
 @import url(../blocks/play/__author/play__author.css);
+@import url(../blocks/play/__place/play__place.css);
 @import url(../blocks/play/__button/play__button.css);
 @import url(../blocks/play/__button-group/play__button-group.css);
 @import url(../blocks/play/__heading/play__heading.css);
