@@ -12,7 +12,7 @@
   color: #242424;
   transition: color 0.5s;
   box-shadow: none;
-  z-index: 1;
+  z-index: 10;
 }
 
 .button::before {
@@ -40,7 +40,7 @@
   right: 16px;
   height: 100%;
   width: 25px;
-  z-index: -1;
+  z-index: 2;
 }
 
 .button:hover {
@@ -57,6 +57,6 @@
   filter: invert(100%);
 }
 
-.button:hover::active::before {
+.button:hover:active::before  {
   transform: scale(1.15, 1.2);
 }
