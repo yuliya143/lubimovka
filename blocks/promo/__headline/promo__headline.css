@@ -1,6 +1,7 @@
 .promo__headline {
   padding: 0 24px 22px;
   box-sizing: border-box;
+  padding-top: 54px;
 }
 
 @media screen and (min-width: 504px) {
@@ -9,11 +10,12 @@
   }
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
   .promo__headline {
     grid-area: title;
     padding-left: 0;
     padding-right: 0;
+    padding-top: 60px;
     padding-bottom: 65px;
   }
 }
