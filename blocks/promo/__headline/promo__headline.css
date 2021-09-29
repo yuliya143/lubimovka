@@ -1,7 +1,6 @@
 .promo__headline {
-  padding: 0 24px 22px;
+  padding: 56px 24px 22px;
   box-sizing: border-box;
-  padding-top: 54px;
 }
 
 @media screen and (min-width: 504px) {
