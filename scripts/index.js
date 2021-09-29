@@ -1,7 +1,6 @@
 const galleryList = document.querySelector('.gallery__list');
 const popup = document.querySelector('.popup');
 const photoList = Array.from(document.querySelectorAll('.gallery__link'));
-console.log(photoList);
 const popupPhoto = document.querySelector('.popup__image');
 const leftButton = document.querySelector('.popup__left-button');
 const rightButton = document.querySelector('.popup__right-button');
