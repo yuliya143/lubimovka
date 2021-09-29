@@ -6,6 +6,10 @@
   transition: cubic-bezier(0.6, 0, 0.5, 1) 400ms;
 }
 
+.person__photo:hover {
+  transform: scale(1.2, 1.2);
+}
+
 @media (min-width: 768px) {
   .person__photo {
     filter: none;
