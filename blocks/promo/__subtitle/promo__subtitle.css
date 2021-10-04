@@ -20,5 +20,6 @@
     line-height: 1.14;
     grid-area: text;
     padding-bottom: 0;
+    padding-right: 8px;
   }
 }

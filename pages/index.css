@@ -34,6 +34,7 @@
 @import url(../blocks/promo/promo.css);
 @import url(../blocks/promo/__top-group/promo__top-group.css);
 @import url(../blocks/promo/__heart/promo__heart.css);
+@import url(../blocks/promo/__button/promo__button.css);
 @import url(../blocks/promo/__headline/promo__headline.css);
 @import url(../blocks/promo/__subtitle/promo__subtitle.css);
 @import url(../blocks/promo/__image-box/promo__image-box.css);
