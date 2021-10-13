@@ -8,3 +8,10 @@
     max-width: 410px;
   }
 }
+
+@media (min-width: 1440px) {
+  .resources__description {
+    flex-shrink: 0;
+    margin-right: 100px;
+  }
+}
