@@ -2,16 +2,30 @@
   all: unset;
   line-height: 0;
   cursor: pointer;
-  grid-column: 1/2;
-  grid-row: 1/-1;
-  position: relative;
+  width: 41px;
+  height: 41px;
+  position: absolute;
+  bottom: 69px;
+  right: 16px;
   z-index: 2;
-  left: -50%;
+  background-image: url('../../../images/popup-left-button-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: 41px 41px;
+  background-position: center;
 }
 
-@media (min-width: 768px) {
+.popup__left-button:hover {
+  background-image: url('../../../images/popup-left-hover.svg');
+}
+
+@media (min-width: 1024px) {
   .popup__left-button {
-    left: 0;
-    padding-right: 32px;
+    width: 66px;
+    height: 66px;
+    right: unset;
+    left: -98px;
+    bottom: calc(50% - 33px);
+    background-image: url('../../../images/popup-left-button.svg');
+    background-size: 66px 66px;
   }
 }

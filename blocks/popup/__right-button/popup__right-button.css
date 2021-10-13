@@ -2,16 +2,29 @@
   all: unset;
   line-height: 0;
   cursor: pointer;
-  justify-self: end;
-  grid-column: 3/4;
-  grid-row: 1/-1;
-  position: relative;
-  right: -50%;
+  width: 41px;
+  height: 41px;
+  position: absolute;
+  bottom: 20px;
+  right: 16px;
+  z-index: 2;
+  background-image: url('../../../images/popup-right-button-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: 41px 41px;
+  background-position: center;
 }
 
-@media (min-width: 768px) {
+.popup__right-button:hover {
+  background-image: url('../../../images/popup-right-hover.svg');
+}
+
+@media (min-width: 1024px) {
   .popup__right-button {
-    right: 0;
-    padding-left: 32px;
+    width: 66px;
+    height: 66px;
+    right: -98px;
+    bottom: calc(50% - 33px);
+    background-image: url('../../../images/popup-right-button.svg');
+    background-size: 66px 66px;
   }
 }
