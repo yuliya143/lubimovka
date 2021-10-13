@@ -2,8 +2,6 @@
   all: unset;
   line-height: 0;
   cursor: pointer;
-  /* width: 41px;
-  height: 41px; */
   position: absolute;
   top: 16px;
   right: 16px;

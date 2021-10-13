@@ -2,8 +2,6 @@
   all: unset;
   line-height: 0;
   cursor: pointer;
-  /* width: 41px;
-  height: 41px; */
   position: absolute;
   bottom: 69px;
   right: 16px;
@@ -12,8 +10,6 @@
 
 @media (min-width: 1024px) {
   .popup__left-button {
-    /* width: 66px;
-    height: 66px; */
     right: unset;
     left: -98px;
     bottom: calc(50% - 33px);
