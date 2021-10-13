@@ -15,3 +15,10 @@
     text-align: left;
   }
 }
+
+@media (min-width: 1440px) {
+  .resources__headline {
+    margin-left: 361px;
+    max-width: 810px;
+  }
+}
