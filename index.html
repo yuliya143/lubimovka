@@ -684,7 +684,7 @@
 
     <div class="popup">
       <div class="popup__container">
-        <button type="button" class="popup__left-button">
+        <button type="button" class="popup__left-button" aria-label="Предыдущая фотография">
           <svg
             class="popup__arrow-icon"
             width="66"
@@ -693,8 +693,17 @@
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <circle cx="33" cy="33" r="33" fill="#ECEBE8" class="popup__circle" />
-            <path d="M32 9C18.7452 9 8 19.7452 8 33C8 46.2548 18.7452 57 32 57" stroke="#242424" />
+            <circle
+              cx="33"
+              cy="33" r="33"
+              fill="#ECEBE8"
+              class="popup__circle"
+            />
+            <path
+              class="popup__round-line"
+              d="M32 9C18.7452 9 8 19.7452 8 33C8 46.2548 18.7452 57 32 57"
+              stroke="#242424"
+            />
             <path
               class="popup__arrow"
               fill-rule="evenodd"
@@ -705,7 +714,7 @@
           </svg>
         </button>
         <div class="popup__image-container">
-          <button type="button" class="popup__close-button">
+          <button type="button" class="popup__close-button" aria-label="Закрыть">
             <svg
               class="popup__close-icon"
               width="41"
@@ -733,7 +742,7 @@
           </button>
           <img src="/" alt="" class="popup__image" />
         </div>
-        <button type="button" class="popup__right-button">
+        <button type="button" class="popup__right-button" aria-label="Следующая фотография">
           <svg
             class="popup__arrow-icon"
             width="66"
@@ -742,8 +751,15 @@
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <circle cx="33" cy="33" r="33" fill="#ECEBE8" class="popup__circle" />
+            <circle
+              class="popup__circle"
+              cx="33"
+              cy="33"
+              r="33"
+              fill="#ECEBE8"
+            />
             <path
+              class="popup__round-line"
               d="M33 9C46.2548 9 57 19.7452 57 33C57 46.2548 46.2548 57 33 57"
               stroke="#242424"
             />

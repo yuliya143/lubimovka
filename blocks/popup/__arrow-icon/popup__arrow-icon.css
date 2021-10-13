@@ -1,6 +1,6 @@
 .popup__arrow-icon {
-  width: 40px;
-  height: 40px;
+  width: 41px;
+  height: 41px;
 }
 
 .popup__arrow-icon:hover .popup__circle {
@@ -13,7 +13,7 @@
   transition: fill 0.2s ease;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .popup__arrow-icon {
     width: 66px;
     height: 66px;

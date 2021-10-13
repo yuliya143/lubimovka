@@ -2,16 +2,15 @@
   all: unset;
   line-height: 0;
   cursor: pointer;
-  justify-self: end;
-  grid-column: 3/4;
-  grid-row: 1/-1;
-  position: relative;
-  right: -50%;
+  position: absolute;
+  bottom: 20px;
+  right: 16px;
+  z-index: 2;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .popup__right-button {
-    right: 0;
-    padding-left: 32px;
+    right: -98px;
+    bottom: calc(50% - 33px);
   }
 }

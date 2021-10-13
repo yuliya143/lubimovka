@@ -109,6 +109,7 @@
 @import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/__left-button/popup__left-button.css);
 @import url(../blocks/popup/__arrow-icon/popup__arrow-icon.css);
+@import url(../blocks/popup/__round-line/popup__round-line.css);
 @import url(../blocks/popup/__image-container/popup__image-container.css);
 @import url(../blocks/popup/__close-button/popup__close-button.css);
 @import url(../blocks/popup/__close-icon/popup__close-icon.css);
