@@ -7,6 +7,11 @@
   min-width: 320px;
 }
 
+.page *::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
 .page *::-webkit-scrollbar-track,
 .page *::-webkit-scrollbar-thumb {
   background: transparent;
