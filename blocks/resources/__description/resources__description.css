@@ -1,0 +1,17 @@
+.resources__description {
+  margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+  .resources__description {
+    padding-left: 0;
+    max-width: 410px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .resources__description {
+    flex-shrink: 0;
+    margin-right: 100px;
+  }
+}

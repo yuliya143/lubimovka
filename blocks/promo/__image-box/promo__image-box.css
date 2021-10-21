@@ -1,0 +1,10 @@
+.promo__image-box {
+  overflow: hidden;
+  line-height: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .promo__image-box {
+    grid-area: image;
+  }
+}

@@ -1,0 +1,17 @@
+.popup__left-button {
+  all: unset;
+  line-height: 0;
+  cursor: pointer;
+  position: absolute;
+  bottom: 69px;
+  right: 16px;
+  z-index: 2;
+}
+
+@media (min-width: 1024px) {
+  .popup__left-button {
+    right: unset;
+    left: -98px;
+    bottom: calc(50% - 33px);
+  }
+}

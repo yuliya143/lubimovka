@@ -1,0 +1,11 @@
+.promo__button {
+  margin-left: 20px;
+}
+
+@media (min-width: 768px) {
+  .promo__button {
+    grid-area: button;
+    margin-left: 30px;
+    margin-top: 33px;
+  }
+}

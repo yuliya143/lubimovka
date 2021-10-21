@@ -1,0 +1,12 @@
+.button_type_reading {
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 16px 0 18px 16px;
+  border-top: 1px solid #242424;
+  background-color: #b7c09d;
+}
+
+.button_type_reading::after {
+  background-image: url(../../../images/arrow-45.svg);
+}

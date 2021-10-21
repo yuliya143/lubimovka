@@ -1,0 +1,23 @@
+.performances__list {
+  padding: 0;
+  margin: 0;
+  max-width: 1096px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  list-style: none;
+}
+
+@media (min-width: 1096px) {
+  .performances__list {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1384px) {
+  .performances__list {
+    max-width: 1380px;
+  }
+}

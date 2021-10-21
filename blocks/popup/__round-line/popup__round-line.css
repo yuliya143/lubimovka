@@ -1,0 +1,9 @@
+.popup__round-line {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .popup__round-line {
+    display: unset;
+  }
+}

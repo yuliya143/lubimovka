@@ -1,0 +1,12 @@
+.play__info {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+@media (min-width: 768px) {
+  .play__info {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    max-width: 210px;
+  }
+}

@@ -1,0 +1,9 @@
+.play__place {
+  margin-top: 8px;
+}
+
+@media (min-width: 768px) {
+  .play__place {
+    margin-top: 4px;
+  }
+}

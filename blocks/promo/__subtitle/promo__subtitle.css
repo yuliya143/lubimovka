@@ -1,0 +1,25 @@
+.promo__subtitle {
+  max-width: 364px;
+  margin: 0 auto;
+  padding: 0 0 36px 60px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+@media screen and (min-width: 504px) {
+  .promo__subtitle {
+    max-width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .promo__subtitle {
+    font-size: 28px;
+    line-height: 1.14;
+    grid-area: text;
+    padding-bottom: 0;
+    padding-right: 8px;
+  }
+}

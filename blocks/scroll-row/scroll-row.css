@@ -1,0 +1,5 @@
+.scroll-row {
+  text-align: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
